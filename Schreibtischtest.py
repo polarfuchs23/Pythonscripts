@@ -1,9 +1,9 @@
 import xlsxwriter
 
-wb = xlsxwriter.Workbook('C:/Users/Joshua/Documents/Tabellen/6_2.xlsx')
+wb = xlsxwriter.Workbook('C:/Users/Joshua/Documents/Tabellen/YourTablesName.xlsx')
 
 # Create a table with the name in the brackets
-tab = wb.add_worksheet()
+tab = wb.add_worksheet("The tables name")
 
 # Define variables
 # E.g. x = 0
